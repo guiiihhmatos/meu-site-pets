@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-bottom: 1px solid #aaa;
+    height: 60px;
+    font-family: 'Abril Fatface', cursive;
+    background-color: #90ee90;
+    margin-bottom: 50px;
+}
+
+.container a {
+    margin-right: 20px;
+    font-size: 18px;
+    color: white;
+}
+
+.container h2 {
+    font-size: 30px;
+}
+
+.login {
+    margin-left: 100px;
+    padding: 10px;
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif; 
+    border-radius: 10px;
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+.servicos {
+    margin-left: 180px;
+}
+
+#pesquisa {
+    padding-left: 8px;
+    height: 40px;
+    margin-left: 160px;
+    margin-right: -30px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(243, 240, 240);
+    width: 200px;
+}
+
+
+/*First section*/
+
+
+.main-second h1 {
+    margin-left: 30px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Special Elite', cursive;
+    margin-top: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.spanishClasse {
+    animation:  typingFont 4s infinite normal;
+}
+
+
+@keyframes typingFont{
+    from {
+        width: 0px;
+    }
+    to {
+        width: 370px;
+    }
+}
+.container2 {
+    height: 600px;
+    display: flex;
+  
+
+}
+.imagem {
+    
+    height: 500px;
+    width: 400px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.foto {
+    position: absolute;
+    opacity: 0;
+    animation-name: animacao;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+
+.foto:nth-child(2){
+    animation-delay: 5s;
+}
+
+
+@keyframes animacao {
+    25%{
+        opacity: 1;
+        transform: scale(1.1,1.1);
+    }
+
+    50%{
+        opacity: 0;
+
+    }
+}
+
+/*Section promoção dentro da 1 section*/
+.main-master {
+    width: 66%;
+    border: 5px solid;
+    border-radius: 20px;
+    background-color: #90ee90;
+}
+.main {
+    width: 100%;
+    display: flex;
+    height: 100%;
+}
+
+
+
+.item-1 {
+background-color: white;
+margin-top: 40px;
+height: 300px;
+width: 300px;
+padding: 10px;
+text-align: center;
+border-radius: 10px;
+margin-left: 100px;
+border:3px solid green;
+}
+
+.item-1 h3 {
+    padding-bottom: 50px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 24px;
+}
+
+.item-1 i{
+    font-size: 40px;
+    margin-top: 70px;
+    margin-left: 200px;
+}
+
+.item-1 p{
+    padding: 0 10px;
+}
+
+.main-master h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Abril Fatface', cursive;
+    margin-bottom: 50px;
+}
+
+.item-1:hover {
+    border: 3px solid;
+}
+
+/*section produtos*/
+
+.section-first{
+    border: 3px solid black;
+    width: 100%;
+    height: 600px;
+    margin-top: 20px;
+}
+
+.lista-produtos {
+    border: 3px solid orange;
+    justify-content: center;
+    display: flex;
+  
+}
+
+.lista-produtos img {
+    height: 140px;
+}
+
+.produto-1 {
+    border: 1px solid #d3d3d3;
+    border-radius: 10px;
+    margin: 0 20px;
+    height: 300px;
+}
+
+.tamanho {
+    width: 20%;
+
+}
+
+.produto-1 img {
+    margin-left: 40px;
+}
+
+.produto-1 hr {
+    width: 50%;
+    margin: auto;
+}
+
+/*Dentro dos produtos*/
+
+.paragrafao {
+    background-color: cyan;
+    margin: 0 10px;
+    
+}
+
+.preco {
+    background-color: fuchsia;
+}
+
+.prestacao {
+    background-color: greenyellow;
+}
+
